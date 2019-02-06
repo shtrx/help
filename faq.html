@@ -83,14 +83,6 @@
           </li>
             <h3><a href="#5">How can I use BerryLan on my already existing Raspbian image?</a></h3>
             <p>You would need to install the BerryLan networkmanager and restart the Raspberry Pi.</p>
-            <pre class="bash"><samp><span class="prompt">pi:~$</span><kbd>sudo apt-get install dirmngr</kbd>
-<span class="prompt">pi:~$</span><kbd>echo "deb http://repository.nymea.io stretch main" | sudo tee /etc/apt/sources.list.d/nymea.list</kbd>
-<span class="prompt">pi:~$</span><kbd>sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key A1A19ED6</kbd>
-<span class="prompt">pi:~$</span><kbd>sudo apt-get update</kbd>
-<span class="prompt">pi:~$</span><kbd>sudo apt-get install nymea-networkmanager</kbd>
-<span class="prompt">pi:~$</span><kbd>sudo systemctl disable dhcpcd</kbd>
-<span class="prompt">pi:~$</span><kbd>reboot</kbd></samp></pre>
-          </li>
           <li>
             <h3><a href="#6">THE DEVICE DOESN'T CONNECT TO THE WIFI</a></h3>
             <p>The WiFi signal may be too weak.</p>
